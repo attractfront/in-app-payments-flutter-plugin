@@ -4,6 +4,7 @@ version '1.4.0'
 buildscript {
     repositories {
         google()
+        mavenCentral()
         jcenter()
     }
 
@@ -15,10 +16,8 @@ buildscript {
 rootProject.allprojects {
     repositories {
         google()
+        mavenCentral()
         jcenter()
-        maven {
-            url 'https://sdk.squareup.com/public/android'
-        }
     }
 }
 
